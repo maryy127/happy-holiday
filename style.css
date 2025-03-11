@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Climate+Crisis&family=Delius+Unicase:wght@400;700&family=Jersey+15&family=Lexend:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    transition: 0.9s;
+    box-sizing: border-box;
+}
+body{
+    background-image: url('bg.svg');
+    background-size: cover;
+    width: 100%;
+    margin: 0;
+}
+main{
+    background-color: #69C4E8;
+    width: 480px;
+    margin: 20px auto;
+    padding: 40px;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+}
+h1{
+    font-family: "Climate Crisis", sans-serif;
+    margin: 5px;
+    color: rgb(236, 238, 239);
+}
+
+h1:hover{
+    font-size: 40px;
+    color: #c9a0dc;
+}
+h2{
+    font-family: "Jersey 15", sans-serif;
+    font-size: 30px;
+    color: rgb(234, 204, 229);
+}
+
+.light{
+    position: absolute;
+    top: -10px;
+    right: -1px;
+    width: 60px;
+    transform: rotate(12deg);
+}
+.ning{
+    position: absolute;
+    top: -3px;
+    left: -1px;
+    width: 80px;
+    transform: rotate(-12deg);
+}
+
+.light:hover{
+    width: 68px;
+    transform: rotate(18deg);
+}
+
+.ning:hover{
+    width: 90px;
+    transform: rotate(-18deg);
+}
+
+.date{
+    font-family: "Climate Crisis", sans-serif;
+    font-size: 20px;
+    position: absolute;
+    bottom: -5px;
+    right: -7px;
+    transform: rotate(-9deg);
+    color: rgb(228, 192, 230);
+}
+
+.date:hover{
+    font-size: 23px;
+    transform: rotate(-16deg);
+    color: rgb(228, 141, 232);
+}
+
+.ae{
+    position: absolute;
+    bottom: -5px;
+    left: -7px;
+    width: 72px;
+    transform: rotate(-15deg);
+}
+
+.ae:hover{
+    width: 79px;
+    transform: rotate(-23deg);
+}
+
+.my{
+    font-family: "Delius Unicase", cursive;
+    color: #eca7bc;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    transition: 0.1s;
+}
+
+.my:hover{
+    color: #ee799c;
+    transform: rotate(-3deg);
+    position: relative;
+    top: -18px;
+    width: 482px;
+    background-color: rgb(244, 235, 240);
+}
+
+.hint{
+    text-align: center;
+    font-family: "Lexend", sans-serif;
+    font-size: 20px;
+    margin: 100px auto;
+    color: #808080;
+    display: block;
+    padding: 7px;
+    background-color: rgb(243, 238, 243);
+    border-radius: 10px;
+    width: 480px;
+}
