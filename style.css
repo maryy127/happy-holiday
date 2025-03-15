@@ -122,3 +122,15 @@ h2{
     border-radius: 10px;
     width: 480px;
 }
+
+@media (max-width: 540px){
+    main{
+        width: 350px;
+    }
+    .hint{
+        width: 350px;
+    }
+    .my:hover{
+        width: 352px;
+    }
+}
