@@ -125,12 +125,12 @@ h2{
 
 @media (max-width: 540px){
     main{
-        width: 350px;
+        width: 88%;
     }
     .hint{
-        width: 350px;
+        width: 88%;
     }
     .my:hover{
-        width: 352px;
+        width: calc(100.2% + 82px);
     }
 }
